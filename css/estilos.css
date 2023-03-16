@@ -128,7 +128,7 @@ img{align-content: center;}
     font-family:'Roboto', sans-serif;
 }
 .Contactoform{
-    text-decoration:none;color:whitesmoke;
+    text-decoration:none;color:white;
     font-weight:bold;
     font-size: 200%;
     font-family: 'Roboto', sans-serif;
@@ -144,10 +144,10 @@ img{align-content: center;}
 }
 .relative{
     position: relative;
-    left:850px;
-    bottom:-450px;
+    left:800px;
+    bottom:-350px;
     width:35%;
-    height:10%;
+    height:20%;
 }
 .imagencentrada{
     position: relative;
