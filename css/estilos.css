@@ -15,6 +15,8 @@ header{
     top:0;
 }
 
+img-fluid{ max-width: 100%; height: auto;}
+
 li{
     list-style:none;
     display:inline-block;
@@ -28,30 +30,26 @@ a {
     padding:40px 20px;
     font-family: 'Roboto', sans-serif;
 }
-.nav-item{
-    text-decoration:none;
-    margin-left: 50 px;
-    font-size: 135%;
-    height: 100px;
-    padding:20px 10px;
-    font-family: 'Roboto', sans-serif; 
-    height: 50%; 
-}
-.container-fluid{
-    text-decoration:none;
-    margin-left: 50 px;
-    font-size: 250%;
-    padding:5px 10px;
-    font-family: 'Roboto', sans-serif;
-    height: 50%;
-}
 
+.nav-item{
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 160%;
+    text-align: justify;
+}
 p{
     text-decoration:none;
     color:rgb(169, 57, 152);
     font-family: 'Roboto', sans-serif;
     font-size: 160%;
     padding:10px 10px;
+    font-style:bold;
 }
 
 .h1{
@@ -74,7 +72,8 @@ h5{
     font-weight:bold;
 }
 h2{
-    text-decoration:none;color:whitesmoke;
+    text-decoration:none;
+    color:goldenrod;
     font-size: 250%;
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -91,7 +90,7 @@ h3{
 }
 h6{
     text-decoration:none;
-    color:orange;
+    color:goldenrod;
     font-size: 250%;
     font-family: 'Roboto', sans-serif;
     text-align:center;
@@ -101,7 +100,7 @@ h6{
 }
 .auspiciante{
     text-decoration:none;
-    color:orange;
+    color:goldenrod;
     font-size: 200%;
     font-family:'Roboto', sans-serif;
     padding:30px;
@@ -115,7 +114,8 @@ body{
 }
 img{align-content: center;}
 .presentacion{
-    margin-top: 70px;
+    margin-top: 20px;
+    font-size: 120%;
 }
 .presentacion2{
     margin-top: 20px;
@@ -125,6 +125,7 @@ img{align-content: center;}
     margin-top: 20px;
     color:goldenrod;
     font-weight:bold;
+    font-family:'Roboto', sans-serif;
 }
 .Contactoform{
     text-decoration:none;color:whitesmoke;
@@ -173,6 +174,6 @@ img{align-content: center;}
     color:rgb(169, 57, 152);
     font-size: 95%;
     font-family: 'Roboto', sans-serif;
-    margin-left:850px;
+    margin-left:1px;
     text-align:left;
 }
