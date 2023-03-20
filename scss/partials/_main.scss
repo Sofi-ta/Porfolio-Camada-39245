@@ -1,0 +1,156 @@
+img-fluid{ max-width: 100%; height: auto;}
+
+.scale:hover{
+transform:scale(1.1);
+transition: all, 500 ms;}
+
+.scale2:hover{
+    transform:scale(1.5);
+    transition: all, 500 ms;}
+    
+.h1{
+    text-decoration:none;
+    color:rgb(169, 57, 152);
+    -webkit-text-stroke-color:rgb(141, 6, 107);
+    -webkit-text-stroke-width: 200%;
+    font-size: 350%;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight:bold;
+}
+
+li{
+    list-style:none;
+    display:inline-block;
+    font-weight:bold;
+}
+
+a {
+    text-decoration:none;color:wheat;
+    margin-left: 110 px;
+    font-size: 300%;
+    padding:40px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 180%;
+    padding:10px 10px;
+    font-style:bold;
+    margin-top: 20px;
+    color:rgb(169, 57, 152);
+    font-weight:bold;
+    font-family:'Roboto', sans-serif;
+}
+
+/*.scale{
+    transform:scale(1.1)
+*/
+/*.translate{ 
+    transform:translate(60px,0px)
+
+}*/
+
+.auspiciante{
+    text-decoration:none;
+    color:rgba(53, 16, 199, 0.966);
+    font-size: 200%;
+    font-family:'Roboto', sans-serif;
+    padding:30px;
+    margin:-20px;
+    font-weight:bold;
+}
+.presentacion{
+    margin-top: 20px;
+    font-size: 120%;
+}
+.presentacion2{
+    margin-top: 20px;
+    color:rgb(169, 57, 152);
+    font-weight:bold;
+    font-family:'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.Contactoform{
+    text-decoration:none;
+    color:azure;
+    font-weight:bold;
+    font-size: 180%;
+    font-family: 'Roboto', sans-serif;
+    text-align:left;
+    margin: 20px;
+    position:relative;
+    bottom:110px;
+    font-style:bold;
+}
+.frentedelbar{
+    background-image:url(../img/frente\ ubicacion!.jpg);
+    background-repeat:no-repeat;
+    background-position: top top;
+}
+.relative{
+    position: relative;
+    left:800px;
+    bottom:-350px;
+    width:35%;
+    height:20%;
+}
+.imagencentrada{
+    position: relative;
+    left:135px;
+
+}
+
+.imagenderecha{
+    position: relative;
+    left:45%;
+    width:39%;
+    height:60%;
+}
+
+.imagenizquierda{
+    position: relative;
+    right:550px;
+    width:50%;
+    bottom:40%;
+}
+
+
+h5{
+    text-decoration:none;color:wheat;
+    font-size: 300%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 50PX;
+    font-weight:bold;
+}
+h2{
+    text-decoration:none;
+    color:rgb(53, 16, 199, 0.966);
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 30PX;
+    font-weight:bold;
+}
+h3{
+    text-decoration:none;
+    color:rgba(53, 16, 199, 0.966);
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    margin: 50PX;
+    font-weight:bold;
+}
+h6{
+    text-decoration:none;
+    color:rgba(53, 16, 199, 0.966);
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    margin: 5px;
+    font-weight:bold;
+    padding-top: 50px;
+}
+

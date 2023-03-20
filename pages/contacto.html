@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-     <!--bootstrap-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-     <!-- css -->
-    <link rel="stylesheet" href="../css/estilos.css">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--aos-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+  <!-- css -->
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -41,19 +43,22 @@
                   </ul>
                 </div>
               </div>
-              </div>
-            </nav>            
+              </div>           
         <h2></h2>
     </header>
     <main class="frentedelbar">
         <section>
             <article>
                 <div> 
-                    <p class="presentacion3">Jueves, viernes y sabado de 7 pm a 2 am</p>
-                    <p class="presentacion3">Serrano 1362, Palermo Soho</p>
-                    <p class="presentacion3">Happy Hour de 7 pm a 9.30 pm</p>}
-                    <p class="presentacion3">Karaoke de 8 a 9.30 pm y luego baile</p>
-                    <iframe class="relative" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.719618655687!2d-58.428392437589686!3d-34.58291604063138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb589a312fd27%3A0xfa6ed9999cf3ce52!2sSerrano%201362%2C%20C1414DFB%20CABA!5e0!3m2!1ses-419!2sar!4v1675650901969!5m2!1ses-419!2sar" width="300" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Jueves, viernes y sabado de 7 pm a 2 am</p>
+                    <p>Serrano 1362, Palermo Soho</p>
+                    <p>Happy Hour de 7 pm a 9.30 pm</p>
+                    <p>Karaoke de 8 a 9.30 pm y luego baile</p>
+                    <div class="row*2">
+                    <div class="col-xl-12 col-md-6 col-sm-0">
+                    <iframe class="relative scale2 container fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.719618655687!2d-58.428392437589686!3d-34.58291604063138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb589a312fd27%3A0xfa6ed9999cf3ce52!2sSerrano%201362%2C%20C1414DFB%20CABA!5e0!3m2!1ses-419!2sar!4v1675650901969!5m2!1ses-419!2sar" width="300" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </div>
                 </div>
             </article>
         </section>
@@ -61,31 +66,31 @@
             <article>
                 <div>
                     <form class="Contactoform" action="#" method= "" enctype="">
-                        <label>Consultas</label>
-                        <div class="mb-3">
+                        <label  class="mb-4">Contacto</label>
+                        <div class="mb-4">
                           <label for="Name" class="form-label">Nombre</label>
                           <input type="text" id="Name" rows="1">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-4">
                           <label for="Cumple" class="form-label">Cumple</label>
                           <textarea type="Dia" id="Cumple" placeholder="dd/mm/yyyy" rows="1"></textarea>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-4">
                           <label for="Email" class="form-label">Email  </label>
                           <textarea type="text" id="Email" placeholder="name@example.com" rows="1"></textarea>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-4">
                           <label for="Comentarios" class="form-label">Comentario</label>
                           <textarea type="form-control" id="Comentarios" rows="4"></textarea>
                         </div>
-                        <input  type="button" class="btn btn-success" value="Enviar">
+                        <input  type="button" value="Enviar">
                     </form>
                 </div>
             </article>
         </section>
     </main>
-     <!--bootstrap-->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <footer>
         <ul>
             <li class="datos_bar">
@@ -94,5 +99,10 @@
             </li>
         </ul>
 </footer>
+<!--aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
