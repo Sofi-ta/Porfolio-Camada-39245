@@ -16,10 +16,10 @@
   <link rel="stylesheet" href="../css/style.css">
 
   <meta name="description" content="Karaoke bar en Palermo Soho Capital Federal">
-  <meta name="keywords" content="Karaoke,bar,Palermo,Soho,Capital Federal,noche,porteña,contacto">
+  <meta name="keywords" content="Karaoke,formulario,contacto,mensaje,comunicacion">
   <title>Contacto y Ubicacion</title>
 </head>
-<body>
+<body class="frentedelbar" class="container-fluid">
     <header>
         <div class="navbar navbar-expand-lg container text-center font-family-roboto-sans-serif">
             <div class="container-fluid">
@@ -50,63 +50,66 @@
               </div>           
         <h2></h2>
     </header>
-    <main class="frentedelbar">
-        <section>
-            <article>
-                <div> 
-                    <p>Jueves, viernes y sabado de 7 pm a 2 am</p>
-                    <p>Serrano 1362, Palermo Soho</p>
-                    <p>Happy Hour de 7 pm a 9.30 pm</p>
-                    <p>Karaoke de 8 a 9.30 pm y luego baile</p>
-                    <div class="row*2">
-                    <div class="col-xl-12 col-md-6 col-sm-0">
-                    <iframe class="relative scale2 container fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.719618655687!2d-58.428392437589686!3d-34.58291604063138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb589a312fd27%3A0xfa6ed9999cf3ce52!2sSerrano%201362%2C%20C1414DFB%20CABA!5e0!3m2!1ses-419!2sar!4v1675650901969!5m2!1ses-419!2sar" width="300" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                </div>
-                </div>
-            </article>
-        </section>
-        <section>
-            <article>
-                <div>
-                    <form class="Contactoform" action="#" method= "" enctype="">
-                        <label  class="mb-4">Contacto</label>
-                        <div class="mb-4">
-                          <label for="Name" class="form-label">Nombre</label>
-                          <input type="text" id="Name" rows="1">
+    <main> 
+                      <div>
+                      <div class="row">
+                      <div class="container-fluid">
+                        <h5> Suscribite y dejanos tu comentario</h5>
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                        <form class="form-horizontal" id="formulario" method="post" action="ejercicio_funciones_4.php">
+                        <br>
+                      <div class="form-group">
+                        <label for="nombre" class="control-label col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1">Nombre: </label>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" id="nombre">
+                      </div>
+                      <div class="form-group">
+                        <label for="fecha" class="control-label col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1">Fecha: </label>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <input type="date" name="fecha"  class="form-control" id="fecha" >
                         </div>
-                        <div class="mb-4">
-                          <label for="Cumple" class="form-label">Cumple</label>
-                          <textarea type="Dia" id="Cumple" placeholder="dd/mm/yyyy" rows="1"></textarea>
-                        </div>
-                        <div class="mb-4">
-                          <label for="Email" class="form-label">Email  </label>
-                          <textarea type="text" id="Email" placeholder="name@example.com" rows="1"></textarea>
-                        </div>
-                        <div class="mb-4">
-                          <label for="Comentarios" class="form-label">Comentario</label>
-                          <textarea type="form-control" id="Comentarios" rows="4"></textarea>
-                        </div>
-                        <input  type="button" value="Enviar">
+                      </div>
+                      <div class="form-group">
+                          <label for="movil" class="control-label col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1">Email: </label>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                          <input type="email" name="email" class="form-control" placeholder="Email" id="email">
+                      </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="mensaje" class="control-label col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1">Mensaje: </label>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                          <textarea  rows="3" cols="20" name="mensaje" class="form-control" placeholder="Escribe tu mensaje aqui" id="mensaje">
+                          </textarea> <br><br>
+                      </div>
+                      <div class="form-group">
+                          <label for="" class="control-label col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1"></label>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                          <input type="submit" class="btn btn-primary" value="Enviar">
+                      </div>
+                    </div>
+                    </div>
                     </form>
-                </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
             </article>
         </section>
     </main>
-  <!--bootstrap-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<footer>
-        <ul>
-            <li class="datos_bar">
-                <p>festivalbar@gmail.com</p>
-                <p>Serrano 1362, Palermo Soho, Buenos Aires</p>
-            </li>
-        </ul>
+  <footer>
+    <ul>
+        <li class="datos_bar">
+            <p>festivalbar@gmail.com</p>
+            <p>Serrano 1362, Palermo Soho, Buenos Aires</p>
+        </li>
+    </ul>
+    <!--bootstrap-->
 </footer>
 <!--aos-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

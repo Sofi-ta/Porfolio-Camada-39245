@@ -38,19 +38,11 @@ p{
     font-size: 180%;
     padding:10px 10px;
     font-style:bold;
-    margin-top: 20px;
+    margin-top: 10px;
     color:rgb(169, 57, 152);
     font-weight:bold;
     font-family:'Roboto', sans-serif;
 }
-
-/*.scale{
-    transform:scale(1.1)
-*/
-/*.translate{ 
-    transform:translate(60px,0px)
-
-}*/
 
 .auspiciante{
     text-decoration:none;
@@ -75,20 +67,19 @@ p{
 
 .Contactoform{
     text-decoration:none;
-    color:azure;
-    font-weight:bold;
-    font-size: 180%;
+    color:rebeccapurple;
+    font-size: 80%;
     font-family: 'Roboto', sans-serif;
-    text-align:left;
-    margin: 20px;
-    position:relative;
-    bottom:110px;
+    margin: 10px;
     font-style:bold;
 }
+
 .frentedelbar{
     background-image:url(../img/frente\ ubicacion!.jpg);
     background-repeat:no-repeat;
-    background-position: top top;
+    backface-visibility: inherit;
+    background-size:cover;
+    background-size: 140%;
 }
 .relative{
     position: relative;
@@ -97,35 +88,19 @@ p{
     width:35%;
     height:20%;
 }
-.imagencentrada{
-    position: relative;
-    left:135px;
-
-}
-
-.imagenderecha{
-    position: relative;
-    left:45%;
-    width:39%;
-    height:60%;
-}
-
-.imagenizquierda{
-    position: relative;
-    right:550px;
-    width:50%;
-    bottom:40%;
-}
 
 
 h5{
-    text-decoration:none;color:wheat;
-    font-size: 300%;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 50PX;
+    text-decoration:none;
+    color:rgb(169, 57, 152);
+    margin:100px;
     font-weight:bold;
+    text-shadow: 30px black;
+    font-size: 250%;
+    font-style:bold;
+    font-family:'Roboto', sans-serif;
 }
+
 h2{
     text-decoration:none;
     color:rgb(53, 16, 199, 0.966);
@@ -154,3 +129,9 @@ h6{
     padding-top: 50px;
 }
 
+.datos_bar{
+    background-color:rgb(207, 206, 206);
+    height: 100%;
+    width: 98%;
+    margin-top: 70px;
+}
